@@ -1,0 +1,52 @@
+body{
+    font: Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main-heading{
+    text-align: center;
+}
+
+.todo-container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 20px;
+    row-gap: 10px;
+    text-align: center;
+}
+#todo-add-container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#todo-input, #todo-date, .btn-add, .btn-delete{
+    font-size: 15px;
+    padding: 10px 5px;
+}
+
+.btn-add, .btn-delete{
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-add{
+    background-color: rgb(8, 104, 8);
+}
+.btn-add:hover{
+    background-color: rgb(12, 143, 12);
+}
+
+.btn-delete{
+    background-color: rgb(87, 4, 4);
+}
+.btn-delete:hover{
+    background-color: rgb(146, 15, 15);
+}
